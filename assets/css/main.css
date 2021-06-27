@@ -1,0 +1,131 @@
+﻿/* Các xử lí định dạng cho provider*/
+@import url('basic.css');
+
+@import url('all.css');
+
+@import url('img.css');
+
+/*************************HEADER***************************/
+
+.header{
+	background: rgba(4,4,4,0.5);
+	margin-left: 15px;
+	margin-right:15px;
+}
+/*************Top***********/
+.header .top{
+	padding: 5px 0;
+	border-bottom: 1px solid #666;
+	color: #fff;
+}
+
+.header .top .bl{
+	border-right: 1px solid #ddd !important;
+}
+.header .top .lang{
+	background: rgba(255,255,255,0.3);
+	color: #fff;
+}
+.header .search{
+	border-top: 1px solid #666;
+	color: #fff;
+}
+/************menu****************/
+.header .menu{
+	box-shadow: 0 10px 10px rgba(4,4,4,0.2);
+}
+
+.header .menu .nav-link{
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	color: #eee !important;
+}
+/**********Slide*************/
+.slider .mybg1{
+	background: rgba(0,0,0,0.3);
+	
+}
+/**********Focus-New*************/
+.focus-news .crop-img1{
+	height: 230px;
+	overflow: hidden;
+}
+
+
+/**********SECTIONS*************/
+.sections .cropimg2{
+	width: 250px;
+	max-height: 150px;
+	overflow: hidden;
+}
+
+.sections .cropimg2 img{
+	width: 100%;
+}
+.focus-news a h5{
+	text-align: justify;
+}
+.sections .crop-img3 {
+	max-height: 300px;
+	overflow: hidden;
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+	.header .top{
+		display: none;
+	}
+	.header .search{
+		display: none;
+	}
+	.focus-news h2 .sections h2{
+		font-size: 23px !important;
+	}
+	.sections .cropimg2{
+		width: 40vw;
+		max-height: 25vh;
+	}
+	.sections .media-body h5{
+		font-size: 18px !important;
+	}
+	
+	.ask .display-4{
+		font-size:30px;
+	}
+	.ask .display-6{
+		font-size:25px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+	.header .top{
+		display: none;
+	}
+	.header .search{
+		display: none;
+	}
+	.focus-news h2{
+		font-size: 23px;
+	}
+	
+	.focus-news .crop-img1{
+		max-height: 40px;
+	}
+	.focus-news a h5{
+	font-size: 16px;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
